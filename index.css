@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px 7%;
+    font-family: Kumbh Sans;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    border-bottom: 1px solid grey;
+    /* padding: 30px; */
+}
+p{
+    font-size: 16px;
+   color: hsl(219, 9%, 45%); 
+}
+.wrd{
+    letter-spacing: 2px;
+    font-weight: 700px;
+    text-decoration: solid;
+    color: hsl(26, 100%, 55%);
+    font-style: bold;
+
+}
+.s1{
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.s2{
+    justify-content: center;
+    display:inline-flex;
+    align-items: center ;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.s2 img{
+    margin-left: 40px;
+}
+nav ul li{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 40px;
+    flex-wrap: wrap;
+
+}
+nav a{
+    text-decoration: none;
+    color:hsl(219, 9%, 45%);
+}
+.main{
+    display: flex;
+    margin-top: 40px;
+}
+.fsti{
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    background-image: url(./images/image-product-1.jpg);
+    margin-bottom: 30px;
+    background-size: 600px;
+    
+}
+.thum{
+    display: inline-flex;
+    width: 120px;
+    height: 120px;
+    background-size: 120px;
+    border-radius: 15px;
+    margin-right: 35px;
+}
+.sneak{
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.price{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.price h2{
+    color: hsl(220, 13%, 13%);
+}
+.dis{
+    width: 50px;
+    height: 20px;
+    background-color: hsl(25, 100%, 94%);
+    margin-left: 30px;
+    text-align: center;
+    color: hsl(26, 100%, 55%);
+}
+.ght{
+    margin-top: 10px;
+}
+.but1{
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-color: hsl(223, 64%, 98%);
+    border-radius: 5px;
+}
+.sp{
+    margin: 0 25px 0 25px;
+}
+.re{
+    color: hsl(26, 100%, 55%);
+}
+.but2{
+    width: 250px;
+    height: 45px;
+    background-color: hsl(26, 100%, 55%);
+    border: none;
+    color: hsl(25, 100%, 94%);
+    border-radius: 5px;
+    text-align: center;
+}
+i{
+    margin-right: 10px;
+}
+.ght{
+    text-decoration: line-through   ;
+    color: hsl(219, 9%, 45%);
+
+}
+
+.thum1{
+    background-image: url(./images/image-product-1-thumbnail.jpg);
+}
+.thum2{
+    background-image: url(./images/image-product-2-thumbnail.jpg);
+}
+.thum3{
+    background-image: url(./images/image-product-3-thumbnail.jpg);
+}
+.thum4{
+    background-image: url(./images/image-product-4-thumbnail.jpg);
+}
